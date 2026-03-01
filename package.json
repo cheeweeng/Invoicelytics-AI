@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
     "dev:frontend": "vite",
-    "dev:backend": "tsx watch backend/server.ts",
+    "dev:backend": "tsx watch backend/index.ts",
     "build": "tsc && vite build",
     "build:backend": "tsc -p backend/tsconfig.json",
     "preview": "vite preview",

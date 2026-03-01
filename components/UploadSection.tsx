@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import { UploadCloud, File as FileIcon, X, AlertCircle, CheckCircle2, Loader2 } from 'lucide-react';
-import { extractInvoiceData, fileToBase64 } from '../services/geminiService';
+import { extractInvoiceData, fileToBase64 } from '../services/api';
 import { ProcessedDocument } from '../types';
 
 interface UploadSectionProps {
