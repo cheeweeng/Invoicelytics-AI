@@ -4,7 +4,6 @@ import { Dashboard } from './components/Dashboard';
 import { UploadSection } from './components/UploadSection';
 import { InvoiceTable } from './components/InvoiceTable';
 import { ProcessedDocument, ViewState } from './types';
-import { ErrorBoundary } from './components/ErrorBoundary';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<ViewState>(ViewState.DASHBOARD);
@@ -28,8 +27,6 @@ const App: React.FC = () => {
   };
 
   return (
-   <ErrorBoundary>
-    <h1 style={{color: 'red', position: 'fixed', top: 0, left: 0, zIndex: 9999}}>TEST - APP IS LOADING</h1>
     <div className="min-h-screen bg-slate-50 flex">
       {/* Sidebar */}
       <aside className="w-64 bg-slate-900 text-white fixed h-full flex flex-col shadow-xl z-10">
@@ -37,7 +34,7 @@ const App: React.FC = () => {
           <div className="bg-indigo-500 p-2 rounded-lg">
             <FileText className="w-6 h-6 text-white" />
           </div>
-          <span className="text-xl font-bold tracking-tight">DocuFlow</span>
+          <span className="text-xl font-bold tracking-tight">InvoicelyticsAI</span>
         </div>
 
         <nav className="flex-1 p-4 space-y-2 mt-4">
@@ -115,7 +112,6 @@ const App: React.FC = () => {
         {renderContent()}
       </main>
     </div>
-   </ErrorBoundary>
   );
 };
 
