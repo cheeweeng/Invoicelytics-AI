@@ -16,14 +16,36 @@
 - **Intelligent Categorization**: Automatically classifies expenses into categories like Software, Hardware, Utilities, and more.
 
 ### 📈 Managerial Dashboard
-- **KPI Tracking**: Monitor total spend, average invoice value, and vendor counts at a glance.
-- **Visual Analytics**: Interactive charts showing spending trends over time and category distribution.
-- **Real-time Updates**: Dashboard reflects new data immediately after processing.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <ul>
+        <li><b>KPI Tracking</b>: Monitor total spend, average invoice value, and vendor counts at a glance.</li>
+        <li><b>Visual Analytics</b>: Interactive charts showing spending trends over time and category distribution.</li>
+        <li><b>Real-time Updates</b>: Dashboard reflects new data immediately after processing.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://github.com/user-attachments/assets/105a8895-fa32-4c4c-935d-fd85d21d5fb8" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 ### 📋 Data Ledger
-- **Structured View**: Review all extracted data in a clean, spreadsheet-like interface.
-- **Status Monitoring**: Track the processing status of every document in your pipeline.
-- **Search & Filter**: Easily find specific invoices or vendors.
+<table>
+  <tr>
+    <td width="40%" valign="top">
+      <ul>
+        <li><b>Structured View</b>: Review all extracted data in a clean, spreadsheet-like interface.</li>
+        <li><b>Status Monitoring</b>: Track the processing status of every document in your pipeline.</li>
+        <li><b>Search & Filter</b>: Easily find specific invoices or vendors.</li>
+      </ul>
+    </td>
+    <td width="60%" valign="top">
+      <img src="https://github.com/user-attachments/assets/8885f7a3-c63c-4ffc-b76f-5dc99eaf32d6" width="100%" height="550"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
